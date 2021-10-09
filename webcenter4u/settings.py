@@ -82,10 +82,11 @@ WSGI_APPLICATION = 'webcenter4u.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'yourdbname_here',
-        'USER': 'postgres',
-        'PASSWORD': 'userpass_here',
+        'NAME': 'real',
+        'USER': 'dbadmin',
+        'PASSWORD': 'abc123!',
         'HOST' : 'localhost',
+        'PORT': '5432'
     }
 }
 
@@ -145,6 +146,6 @@ MESSAGE_TAGS = {
 # Email config
 EMAIL_HOST ='smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER ='***'
-EMAIL_HOST_PASSWORD='***'
+EMAIL_HOST_USER ='rohitdas10595@gmail.com'
+EMAIL_HOST_PASSWORD='rkiugjtzuxzahpqy'
 EMAIL_USE_TLS=True
